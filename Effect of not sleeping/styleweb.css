@@ -1,0 +1,355 @@
+body{
+	margin:0;
+	color:white;
+	background: black;
+}
+
+
+
+
+.box1{
+	
+	margin:auto;
+	overflow: hidden;
+	background: linear-gradient(to left, rgb(112, 101, 214) , rgb(230, 106, 213));
+	color:black;
+	padding-left: 70px;
+	border:5px black solid;
+
+
+
+}
+
+h1 {    
+	font-family:arial;
+	text-transform: uppercase;
+	padding-left: 70px;
+
+
+}	
+   
+
+
+.box2{
+	margin:auto;
+	background-color: rgba(0,0,0,.8);
+	padding-left: 70px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	overflow: hidden;
+	border-left:5px black solid;
+	border-right:5px black solid;
+	border-bottom:5px black solid;
+	position: sticky;
+	top:0;
+
+}
+
+.box2 a{
+	font-family:"arial black",Gadget,sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color:white;
+	padding-right: 25px;
+	font-size: 25px
+}
+
+.homebutton{
+	background: #f00;
+	padding-right: 0px;
+	padding-left:20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+
+
+ 
+.homebutton:hover{
+	color:black;
+}
+
+.restbuttons:hover{   
+	color:red;
+}
+
+
+
+.box3 h2{
+
+
+	background: linear-gradient(to left, #ffff66, green );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
+	font-size: 45px;
+	line-height: 1.6em;
+	
+	
+}
+
+
+
+.box3{
+	background-image: url('showcase.jpg');
+	background-position: center right;
+	height: 400px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding-top: 100px;
+    font-family:"arial black",Gadget,sans-serif;
+    color:grey;
+}
+
+
+
+
+.par p{
+	font-size: 25px;
+	margin:auto;
+	width: 60%;
+	padding-top: 20px;
+	line-height: 1.6em;
+	word-spacing: 2px;
+
+
+}
+
+.par h1{
+	background: linear-gradient(to left, rgb(112, 101, 214) , rgb(230, 106, 213));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
+	padding-top:20px;
+	
+	padding-left:100px;
+
+}
+
+
+
+.login{
+    width: 80%;
+	padding-left: 95px;
+	padding-top: 50px;
+}
+
+
+.login .group{
+	padding-bottom: 15px;
+}
+
+
+.login label{
+	display: block;
+}
+
+
+.login input[type="text"], .login textarea{
+	padding:8px;
+	width: 80%;
+	
+}
+
+
+.button{
+	background-color: #333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+
+
+.button:hover{
+	background-color: red;
+}
+
+/*phone picture*/
+.img-phone{
+	width: 50%;
+	height:400px;
+	margin-left: 23%;
+	padding-top: 0px;
+
+}
+
+/*body picture*/
+.img-body{
+	width:50%;
+	height: 1500px;
+	margin-left: 23%;
+	padding-top:100px;
+	padding-bottom: 100px;
+}
+
+.img-pain{
+	width: 50%;
+	height:600px;
+	margin-left: 23%;
+	padding-top: 100px;
+}
+
+
+
+
+
+/*causes title*/
+.causes{
+	background: linear-gradient(to left, rgb(112, 101, 214) , rgb(230, 106, 213));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
+	width:60%;
+	margin:auto;
+	padding-top: 75px;
+	margin-left: 310px;
+	
+
+}
+
+/*eyesight titile*/
+.eyesight{
+	background: linear-gradient(to left, rgb(112, 101, 214) , rgb(230, 106, 213));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
+	width:60%;
+	margin:auto;
+	padding-top: 75px;
+	margin-left: 310px;
+}
+
+.happens{
+	background: linear-gradient(to left, rgb(112, 101, 214) , rgb(230, 106, 213));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
+	width:60%;
+	margin:auto;
+	padding-top: 75px;
+	margin-left: 310px;
+}
+
+
+.sleep{
+	background: linear-gradient(to left, rgb(112, 101, 214) , rgb(230, 106, 213));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
+	width:60%;
+	margin:auto;
+	padding-top: 75px;
+	margin-left: 310px;
+}
+
+.solutions{
+	background: linear-gradient(to left, rgb(112, 101, 214) , rgb(230, 106, 213));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
+	width:60%;
+	margin:auto;
+	padding-top: 75px;
+	margin-left: 310px;
+}
+
+/*Questions Title*/
+.introduction{
+	color:#555;
+}
+
+
+
+
+/* links movment*/
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+/*links positions*/
+
+.seconda{
+	padding-bottom: 100px;
+	width:60%;
+	margin:auto;
+	padding-top: 0px;
+	margin-left: 100px;
+	font-size: 35px;
+
+
+}
+
+.seconda li{
+	padding-bottom: 30px;
+}
+
+.seconda a{
+	text-decoration: none;
+
+}
+
+.seconda a:visited{
+	color:#9966ff;
+}
+
+.seconda a:hover{
+	background: linear-gradient(to left,  yellow,green );
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
+
+/*LEARN MORE*/
+.learnmore {
+	background: linear-gradient(to left, rgb(112, 101, 214) , rgb(230, 106, 213));
+	color:#fff;
+	padding:30px 40px;
+	border:none;
+	font-size: 20px;
+
+}
+.learnmore:hover{
+	background-color:  red;
+}
+
+
+
+/*SLEEP VIDEO*/
+
+.sleepvid{
+
+	float:right;
+	width:30%;
+	padding-right: 125px;
+	padding-top: 100px;
+	width:700px;
+	height: 400px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
